@@ -15,10 +15,14 @@ $show_accept_dialog => undef
 <tr>
 <td colspan="2">
 
-
+<br />
+<br />
 Welcome to YamBase!
-
-
+<br />
+<br />
+<br />
+<b>News...</b><br /><br />
+The Yambase server was moved to the secure HTTP protocol (http<b>s</b>://yambase.org). This should increase the security of the site. Please <a href="/contact/form">let us know</a> if you encounter any problems.
 </td>
 </tr>
 
