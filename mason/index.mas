@@ -13,7 +13,7 @@ $show_accept_dialog => undef
 </td></tr>
 
 <tr>
-<td colspan="2">
+<td colspan="1">
 
 <br />
 <br />
@@ -24,6 +24,9 @@ Welcome to YamBase!
 <b>News...</b><br /><br />
 The Yambase server was moved to the secure HTTP protocol (http<b>s</b>://yambase.org). This should increase the security of the site. Please <a href="/contact/form">let us know</a> if you encounter any problems.
 </td>
+<td align="center">
+<a href="https://www.positivessl.com" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans.png" alt="SSL Certificate" title="SSL Certificate" border="0" /></a>
+<div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://www.positivessl.com" style="color:#86BEE0; text-decoration: none;">SSL Certificate</a></div></td>
 </tr>
 
 <tr>
