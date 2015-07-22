@@ -122,10 +122,10 @@
 		     link => '/solgs/search/',
                      desc => 'Estimate genomic estimated breeding values (GEBVs) of your selection populations using prediction models.',
 		   },
-		   { name => 'Identical-By-Descant Based Genomic Selection',
-                     link => '/solgs/search/',
-                     desc => 'Estimate genomic estimated breeding values (GEBVs) of your selection populations using prediction models.',
-                   },
+#		   { name => 'Identical-By-Descant Based Genomic Selection',
+#                     link => '/solgs/search/',
+#                     desc => 'Estimate genomic estimated breeding values (GEBVs) of your selection populations using prediction models.',
+#                   },
 		   #Sequence Analysis
 		   { name => 'Sequence Analysis' },
 		   {
