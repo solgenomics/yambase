@@ -24,6 +24,8 @@ pages.
 
 </%doc>
 
+<%doc>
+=head2 
 <style type="text/css">
     @import url("/css/icon_nav.css");
 
@@ -145,14 +147,14 @@ pages.
               <li><a href="/search/direct_search.pl?search=loci">Search loci</a></li>
               <li><a href="/search/direct_search.pl?search=unigene">Search unigenes</a></li>
               <li><a href="/search/direct_search.pl?search=template">Expression</a></li>
-              <li><a href="/phenome/">Become a Cassava locus editor</a></li>              
+              <li><a href="/phenome/">Become a Yam locus editor</a></li>              
 	      </div>
 	      
 	  </ul>
 
 
 
-	<li class="Phenotypes"><a href="/search/direct_search.pl?search=phenotypes" style="background: none"><img src="/img/soliconmenu/Yam.png" alt="Phenotypes and QTLs" title="Phenotypes and QTLs" /></a>
+	<li class="Phenotypes"><a href="/search/direct_search.pl?search=phenotypes" style="background: none"><img src="/img/soliconmenu/Genes.png" alt="Phenotypes and QTLs" title="Phenotypes and QTLs" /></a>
 	  <ul>
 	    <div class="submenu PhenotypesSubMenu">
               <li><a href="/search/direct_search.pl?search=phenotypes">Search phenotypes</a></li>
@@ -179,7 +181,7 @@ pages.
       <ul>
             <div class="submenu GenomesSequencesSubMenu">
                 <li><a href="/organism/5/view/">Cassava Information</a></li>
-		<li><a href="http://www.phytozome.net/cgi-bin/gbrowse/cassava/">Cassava Genome at JGI</a></li>
+		<li><a href="http://www.phytozome.net/cgi-bin/gbrowse/cassava/">Yam Genome at JGI</a></li>
 		<li><a href=""></a>&nbsp;<li>
 
             </div>
@@ -192,5 +194,9 @@ pages.
 </ul>
 
 </div>
+
+=cut
+
+</%doc>
 
 <& /util/import_javascript.mas, classes=>[qw[ icon_nav ]] &>
