@@ -4,43 +4,94 @@ $static_content_path => undef
 $show_accept_dialog => undef
 </%args>
 
+<%doc>
+<center>
+<br />   
+<br />   
+<& homepage/slider.mas &>
+</%doc>
+
 <& /util/import_javascript.mas, classes=>[ "jquery", "jqueryui", "jquery.cookie"] &>
 
-<table cellpadding="0">
+<br/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
 
-<tr><td colspan="2">
-<& homepage/iconmenu.mas &>
-</td></tr>
+     <!-- <& homepage/iconmenu.mas &> -->
 
-<tr>
-<td colspan="1">
+      <div class="panel panel-info">
+        <div class="panel-heading">News</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/news.mas &>
+        </div>
+      </div>
+      
+      <div class="panel panel-info">
+        <div class="panel-heading">Popular Species</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/popular_species.mas &>
+        </div>
+      </div>
+      
+      <div class="panel panel-info">
+        <div class="panel-heading">SGN Featured</div>
+    	  <table class="table table-hover table-striped">
+    	      <tbody>
+    	            <tr><td><& homepage/publication_of_the_week.mas &></td></tr>
+    		          <tr><td><& homepage/image_of_the_week.mas &></td></tr>
+    			        <tr><td><& homepage/locus_of_the_week.mas &></td></tr>
+    				      <tr><td><& homepage/labs.mas &></td></tr>
+    				          </tbody>
+    					    </table>
+      </div>
 
-<br />
-<br />
-Welcome to YamBase!
-<br />
-<br />
-<br />
-<b>News...</b><br /><br />
-The Yambase server was moved to the secure HTTP protocol (http<b>s</b>://yambase.org). This should increase the security of the site. Please <a href="/contact/form">let us know</a> if you encounter any problems.
-</td>
-<td align="center">
-<a href="https://www.positivessl.com" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans.png" alt="SSL Certificate" title="SSL Certificate" border="0" /></a>
-<div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://www.positivessl.com" style="color:#86BEE0; text-decoration: none;">SSL Certificate</a></div></td>
-</tr>
+     <div class="panel panel-info">
+        <div class="panel-heading">SOL Newsletters</div>
+        <div class="panel-body">
+          All SOL newsletters, edited by Joyce van Eck, are available on the <a href="/solanaceae-project/#sol_newsletters">Solanaceae Project page</a>
+        </div>
+      </div>
+      
+    </div>
+      
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        
+        <div class="panel panel-info">
+          <div class="panel-heading">Events</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/events.mas &>
+          </div>
+        </div>
+        
+        <div class="panel panel-info">
+          <div class="panel-heading">Affiliated Sites</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/affiliated_sites.mas &>
+          </div>
+        </div>
+        
+        <div class="panel panel-info">
+          <div class="panel-heading">Links</div>
+          <div class="panel-body" style="overflow:hidden">
+            <& homepage/other_links.mas &>
+          </div>
+        </div>
+        
+      </div>
+      
+ 
+</div>
+<%doc>
+</div>
+</%doc>
 
-<tr>
+      <br>
+      <a href="https://www.positivessl.com" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans.png" alt="SSL Certificate" title="SSL Certificate" border="0" /></a>
+      <div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://www.positivessl.com" style="color:#86BEE0; text-decoration: none;">SSL Certificate</a></div></td>
 
-<td width="300">
-
-
-</td></tr>
-
-
-</table>
-
-
-
-
-
-
+<%doc>
+    </div>
+  </div>
+</div>
+</%doc>
