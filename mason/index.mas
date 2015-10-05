@@ -35,7 +35,7 @@ $show_accept_dialog => undef
       </div>
       
       <div class="panel panel-info">
-        <div class="panel-heading">SGN Featured</div>
+        <div class="panel-heading">Yambase Featured</div>
     	  <table class="table table-hover table-striped">
     	      <tbody>
     	            <tr><td><& homepage/publication_of_the_week.mas &></td></tr>
@@ -47,9 +47,9 @@ $show_accept_dialog => undef
       </div>
 
      <div class="panel panel-info">
-        <div class="panel-heading">SOL Newsletters</div>
+        <div class="panel-heading">Yam Newsletters</div>
         <div class="panel-body">
-          All SOL newsletters, edited by Joyce van Eck, are available on the <a href="/solanaceae-project/#sol_newsletters">Solanaceae Project page</a>
+          All Yam newsletters, edited by Aimin Yan, are available on the <a href="/solanaceae-project/#sol_newsletters">Africayam  Project page</a>
         </div>
       </div>
       
