@@ -46,7 +46,7 @@ $show_accept_dialog => undef
     					    </table>
       </div>
 
-     <div class="panel panel-info">
+      <div class="panel panel-info">
         <div class="panel-heading">Yam Newsletters</div>
         <div class="panel-body">
           All Yam newsletters, edited by Aimin Yan, are available on the <a href="/solanaceae-project/#sol_newsletters">Africayam  Project page</a>
@@ -55,32 +55,30 @@ $show_accept_dialog => undef
       
     </div>
       
-      <div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="col-sm-6 col-md-6 col-lg-6">
         
-        <div class="panel panel-info">
-          <div class="panel-heading">Events</div>
-          <div class="panel-body" style="overflow:hidden">
-            <& homepage/events.mas &>
-          </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">Events</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/events.mas &>
         </div>
-        
-<%doc>
-        <div class="panel panel-info">
-          <div class="panel-heading">Affiliated Sites</div>
-           <div class="panel-body" style="overflow:hidden">
-            <& homepage/affiliated_sites.mas &>
-          </div>
-        </div> 
-</%doc>
-        
-        <div class="panel panel-info">
-          <div class="panel-heading">Links</div>
-          <div class="panel-body" style="overflow:hidden">
-            <& homepage/other_links.mas &>
-          </div>
-        </div>
-        
       </div>
-      
+        
+      <div class="panel panel-info">
+        <div class="panel-heading">Affiliated Sites</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/affiliated_sites.mas &>
+        </div>
+      </div> 
+        
+      <div class="panel panel-info">
+        <div class="panel-heading">Links</div>
+        <div class="panel-body" style="overflow:hidden">
+          <& homepage/other_links.mas &>
+        </div>
+      </div>
+        
+    </div>
+  </div>
  
 </div>
