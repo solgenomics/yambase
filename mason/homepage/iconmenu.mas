@@ -199,5 +199,4 @@ pages.
 
 </%doc>
 
-<!-- Removed icon_nav js because it was messing up page and it is not being used.-->
-<& /util/import_javascript.mas, classes=>[qw[ ]] &>
+<& /util/import_javascript.mas, classes=>[qw[ icon_nav ]] &>
