@@ -109,8 +109,9 @@
 	      </div>
 
 	      <div class="well well-sm" style="margin-top:-3px">
-	        <small>Yambase is supported by <a class="footer" href="http://www.gatesfoundation.org/"> Gate Foundation </a>, and hosted at <a class="footer" href="http://bti.cornell.edu">BTI.</a>
-    		<br />
+	        <!-- <small>Yambase is supported by <a class="footer" href="http://www.gatesfoundation.org/"> Gate Foundation </a>, and hosted at <a class="footer" href="http://bti.cornell.edu">BTI.</a> -->
+     		<small>Yambase is hosted at <a class="footer" href="http://bti.cornell.edu">BTI.</a>
+                <br />
     		</small>
               </div>
 	    </div>
