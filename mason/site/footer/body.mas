@@ -77,7 +77,8 @@
                 	<a href="http://www.gmod.org/" class="footer"><img width="100" alt="Powered by GMOD" src="/documents/img/powered_by_gmod_150x71.png" title="Powered by GMOD" border="0" style="padding-top:15px"/></a>
               	      </td>
               	      <td>
-                	<a href="http://www.gatesfoundation.org/" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/gate.png" title="Gate Foundation" border="0" style="padding-top:15px"/></a>
+                	<!-- a href="http://www.gatesfoundation.org/" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/gate.png" title="Gate Foundation" border="0" style="padding-top:15px"/></a -->
+<!-- Note: Do NOT use the BMGF logo, as it requires special permission (LM) -->
               	      </td>
 		      <td>
                 	<a href="http://www.iita.org/yam" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
