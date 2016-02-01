@@ -4,24 +4,16 @@ $static_content_path => undef
 $show_accept_dialog => undef
 </%args>
 
-<%doc>
-<center>
-<br />   
-<br />   
-<& homepage/slider.mas &>
-</%doc>
+<& homepage/carousel.mas &>
 
 <br/>
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6 col-md-6 col-lg-6">
-
- 
-
       <div class="panel panel-info">
         <div class="panel-heading">News</div>
         <div class="panel-body" style="overflow:hidden">
-          <& homepage/news.mas &>
+         <& homepage/news.mas &> 
         </div>
       </div>
       
@@ -33,16 +25,20 @@ $show_accept_dialog => undef
       </div>
       
       <div class="panel panel-info">
+      
         <div class="panel-heading">Yambase Featured</div>
     	  <table class="table table-hover table-striped">
     	      <tbody>
     	            <tr><td><& homepage/publication_of_the_week.mas &></td></tr>
+			<%doc>
     		          <tr><td><& homepage/image_of_the_week.mas &></td></tr>
     			        <tr><td><& homepage/locus_of_the_week.mas &></td></tr>
     				      <tr><td><& homepage/labs.mas &></td></tr>
+					</%doc>
     				          </tbody>
     					    </table>
-      </div>
+	      
+	</div>
 
       <div class="panel panel-info">
         <div class="panel-heading">Yam Newsletters</div>
@@ -59,13 +55,16 @@ $show_accept_dialog => undef
         <div class="panel-heading">Events</div>
         <div class="panel-body" style="overflow:hidden">
           <& homepage/events.mas &>
+           
         </div>
       </div>
         
       <div class="panel panel-info">
         <div class="panel-heading">Affiliated Sites</div>
         <div class="panel-body" style="overflow:hidden">
+          
           <& homepage/affiliated_sites.mas &>
+           
         </div>
       </div> 
         
@@ -79,4 +78,8 @@ $show_accept_dialog => undef
     </div>
   </div>
  
-</div>
+</div> 
+
+
+
+
