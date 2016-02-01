@@ -1,0 +1,236 @@
+<style>
+
+.slider-size {
+  height: 450px; /* This is your slider height */
+}
+.carousel {
+  max-width:98%;
+  /*width:100%;*/
+  margin:0 auto; /* center your carousel if other than 100% */
+  margin-bottom:0px;
+}
+
+.carousel-sgn-caption { 
+  position:relative;
+  float: left;
+  max-width:49%;
+  min-width:10%;
+  padding: 0px 10px 0px 10px;
+  margin-top:20px;
+
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  border-top-right-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.carousel-sgn-caption a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.carousel-sgn-caption a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+.carousel-sgn-links {
+  position:absolute;
+  min-width:10%;
+  max-width:49%;
+  margin-top:20px;
+  right:0px;
+
+  color: #000;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+  background-color: #fff;
+  opacity: 0.85;
+  filter: alpha(opacity=85); /* For IE8 and earlier */
+  border-top-left-radius:12px;
+  border-bottom-left-radius:12px;
+}
+
+.carousel-sgn-links ul { 
+  padding: 10px 30px 0px 15px;
+  list-style-type: none;
+}
+
+.carousel-sgn-links a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.carousel-sgn-links a:hover { 
+  color: #666;
+  text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 650px) {
+
+    .carousel-sgn-caption {
+      margin-top:0px;
+      width: 100%;
+      max-width: 100%;
+      border-radius:0px;
+      float: none;
+      margin-bottom:0px;
+    }
+
+    .carousel-sgn-links {
+      max-width: 100%;
+      width: 100%;
+      border-radius:0px;
+      bottom:80px;
+    }
+    
+    .carousel-indicators {
+      max-width: 100%;
+      bottom:0px;
+      margin-bottom:5px;
+    }
+
+}
+
+
+</style>
+
+<!--
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+
+<script>
+
+  jQuery(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 20000,
+      pause: "hover",
+      wrap:true
+    });
+
+       $(".ui-loading").css("display","none");
+       $(".ui-loader").css("display","none");
+  });
+</script>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <div class="carousel-controls">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <br>
+      <a href="https://www.flickr.com/photos/iita-media-library/sets/72157623744539461/" style="color:#fff; font-style:italic">Photos by the International Institute of Tropical Agriculture (IITA). </a>
+      <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" style="color:#fff; font-style:italic">CC BY</a>
+    </ol>
+    </div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+          <div style="background:url(/documents/img/yambase/homepage_carousel/7.jpg) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption">
+               <h3><a href="/search"> Yam Search</a></h3>
+                <p>Find specific trials, traits, accessions and more</p>
+              </a>
+            </div>
+            
+            <div class="carousel-sgn-links">
+              <ul>
+		<li><a href="/breeders/search">Use the Search Wizard</a></li>
+                <li><a href="/search/trials">Search Trials</a></li>
+		<li><a href="/search/stocks">Search Accessions and Plots</a></li>
+		<li><a href="/search/images">Search Images</a></li>		
+		<li><a href="/search/people">Search People</a></li>		
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/2.jpg) center center; background-size:cover;" class="slider-size">
+          <div class="carousel-sgn-caption">
+            <h3><a href="breeders/home">Breeding Tools</a></h3>
+            <p><a target="_blank">Plan and create yam breeding trials.</a></p>
+          </div>
+        
+          <div class="carousel-sgn-links">
+            <ul>
+              <li><a href="/breeders/accessions">Upload Accessions</a></li>
+	      <li><a href="/breeders/crosses">Make a Cross</a></li>
+	      <li><a href="/breeders/trials">Create a Trial</a></li>
+	      <li><a href="/breeders/trials">Manage Trials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/3.jpg) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+            <h3><a href="/breeders/home">Phenotypic Analysis</a></h3>
+            <p><a target="_blank">Upload and access yam breeding data</a></p>
+        </div>
+        <div class="carousel-sgn-links">
+          <ul>
+            <li><a href="/breeders/phenotyping">Upload Phenotypes</a></li>
+	    <li><a href="/fieldbook">Upload FieldBook file</a></li>
+	    <li><a href="/breeders/trials">Summary Statistics</a></li>
+	    <li><a href="/breeders/download">Download data with Lists</a></li>
+	    <li><a href="/breeders/search">Download data with Wizard</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/4.jpg) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+          <!--  <h3><a href="http://buell-lab.plantbiology.msu.edu/research.shtml">Genotypic Analysis (in progress)</a></h3> -->
+	    <h3><a target="_blank">Genotypic Analysis</a></h3>
+            <p><a target="_blank">Tools with the potential to accelerate breeding, and reveal the genetic basis of important traits.</a></p>
+        </div> 
+        
+        <div class="carousel-sgn-links">
+          <ul>
+            <li><a>Browse the yam genome</a></li>
+            <li><a>Find sequences by similarity</a></li>
+            <li><a>Download annotations</a></li>
+            <li><a>Download the genome sequence</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/5.jpg) center center; background-size:cover;" class="slider-size">
+          <div class="carousel-sgn-caption">
+              <h3><a>Yam Project News</a></h3>
+              <p><a target="_blank">New project to boost yam production in West Africa</a></p>
+          </div>
+          
+          <div class="carousel-sgn-links">
+            <ul>
+              <li><a href="http://www.iita.org/search/-/journal_content/56/25357/6468411#.Vqv3NULL_7A">IITA Announcement</a></li>
+              <!--<li><a href="http://cipotato.org/press-room/blogs/cip-partners-with-nc-state-others-in-gates-foundation-funded-effort-to-accelerate-improvement-of-ofsp">CIP Announcement</a></li>
+              <li><a>Project Overview (ppt)</a></li> -->
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+</div>
