@@ -128,6 +128,7 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
       <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
       <br>
       <a href="https://www.flickr.com/photos/iita-media-library/sets/72157623744539461/" style="color:#fff; font-style:italic">Photos by the International Institute of Tropical Agriculture (IITA). </a>
       <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" style="color:#fff; font-style:italic">CC BY</a>
@@ -138,6 +139,27 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
+          <div style="background:url(/documents/img/yambase/homepage_carousel/ym.jpg) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption">
+               <h3><a href="http://africayam.org/">AfricaYam Annual Meeting</a></h3>
+                <p><a href="http://africayam.org/">Cotonou, Benin Republic  March 14 - 18, 2016</a></p>
+              </a>
+            </div>
+            
+            <div class="carousel-sgn-links">
+              <ul>
+		<li><a href="http://book.bestwestern.com/bestwestern/BJ/Cotonou-hotels/BEST-WESTERN-PLUS-Nobila-Airport-Hotel/Hotel-Overview.do?propertyCode=75501">Venue Information</a></li>
+              <!--  <li><a href="/search/trials">Search Trials</a></li>
+		<li><a href="/search/stocks">Search Accessions and Plots</a></li>
+		<li><a href="/search/images">Search Images</a></li>		
+		<li><a href="/search/people">Search People</a></li>	-->	
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <div class="item">
           <div style="background:url(/documents/img/yambase/homepage_carousel/7.jpg) center center; background-size:cover;" class="slider-size">
             <div class="carousel-sgn-caption">
                <h3><a href="/search"> Yam Search</a></h3>
@@ -157,7 +179,7 @@
           </div>
         </a>
       </div>
-      
+
       <div class="item">
         <div style="background:url(/documents/img/yambase/homepage_carousel/2.jpg) center center; background-size:cover;" class="slider-size">
           <div class="carousel-sgn-caption">
@@ -219,14 +241,16 @@
         <div style="background:url(/documents/img/yambase/homepage_carousel/5.jpg) center center; background-size:cover;" class="slider-size">
           <div class="carousel-sgn-caption">
               <h3><a>Yam Project News</a></h3>
-              <p><a target="_blank">New project to boost yam production in West Africa</a></p>
+              <p><a href="http://africayam.org/">New project to boost yam production in West Africa</a></p>
           </div>
           
           <div class="carousel-sgn-links">
             <ul>
               <li><a href="http://www.iita.org/search/-/journal_content/56/25357/6468411#.Vqv3NULL_7A">IITA Announcement</a></li>
-              <!--<li><a href="http://cipotato.org/press-room/blogs/cip-partners-with-nc-state-others-in-gates-foundation-funded-effort-to-accelerate-improvement-of-ofsp">CIP Announcement</a></li>
-              <li><a>Project Overview (ppt)</a></li> -->
+              <li><a href="http://africayam.org/download/africa-yam-bulletin/">Africa Yam Project Bulletin</a></li>
+              <li><a href="http://africayam.org/download/africa-yam-annual-report-2015/">Africa Yam Annual Report</a></li>
+	     <!-- <li><a href="http://www.cirad.fr/en">CIRAD</a></li> -->
+              <li><a href="http://africayam.org/the-project-partners-will-work-towards-increasing-yam-productivity-another-post/">Project Partners</a></li>
             </ul>
           </div>
           
