@@ -1,203 +1,65 @@
-<style>
-
-.slider-size {
-  height: 450px; /* This is your slider height */
-}
-.carousel {
-  max-width:98%;
-  /*width:100%;*/
-  margin:0 auto; /* center your carousel if other than 100% */
-  margin-bottom:0px;
-}
-
-.carousel-sgn-caption { 
-  position:relative;
-  float: left;
-  max-width:49%;
-  min-width:10%;
-  padding: 0px 10px 0px 10px;
-  margin-top:20px;
-
-  color: #000;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #fff;
-  opacity: 0.80;
-  filter: alpha(opacity=80); /* For IE8 and earlier */
-  border-top-right-radius:12px;
-  border-bottom-right-radius:12px;
-}
-
-.carousel-sgn-caption a { 
-  color: #000;
-  text-decoration: none;
-}
-
-.carousel-sgn-caption a:hover { 
-  color: #666;
-  text-decoration: none;
-}
-
-.carousel-sgn-links {
-  position:absolute;
-  min-width:10%;
-  max-width:49%;
-  margin-top:20px;
-  right:0px;
-
-  color: #000;
-  font-size: 16px;
-  font-style: italic;
-  text-decoration: none;
-  background-color: #fff;
-  opacity: 0.85;
-  filter: alpha(opacity=85); /* For IE8 and earlier */
-  border-top-left-radius:12px;
-  border-bottom-left-radius:12px;
-}
-
-.carousel-sgn-links ul { 
-  padding: 10px 30px 0px 15px;
-  list-style-type: none;
-}
-
-.carousel-sgn-links a { 
-  color: #000;
-  text-decoration: none;
-}
-
-.carousel-sgn-links a:hover { 
-  color: #666;
-  text-decoration: none;
-}
-
-@media (min-width: 0px) and (max-width: 650px) {
-
-    .carousel-sgn-caption {
-      margin-top:0px;
-      width: 100%;
-      max-width: 100%;
-      border-radius:0px;
-      float: none;
-      margin-bottom:0px;
-    }
-
-    .carousel-sgn-links {
-      max-width: 100%;
-      width: 100%;
-      border-radius:0px;
-      bottom:80px;
-    }
-    
-    .carousel-indicators {
-      max-width: 100%;
-      bottom:0px;
-      margin-bottom:5px;
-    }
-
-}
-
-
-</style>
-
-<!--
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
--->
-
-<script>
-
-  jQuery(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 20000,
-      pause: "hover",
-      wrap:true
-    });
-
-       $(".ui-loading").css("display","none");
-       $(".ui-loader").css("display","none");
-  });
-</script>
-
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
-    <div class="carousel-controls">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <ol class="carousel-indicators" style="display:none">
+      <li data-target="#myCarousel" data-slide-to="0"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
       <li data-target="#myCarousel" data-slide-to="4"></li>
       <li data-target="#myCarousel" data-slide-to="5"></li>
-      <br>
-      <a href="https://www.flickr.com/photos/iita-media-library/sets/72157623744539461/" style="color:#fff; font-style:italic">Photos by the International Institute of Tropical Agriculture (IITA). </a>
-      <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" style="color:#fff; font-style:italic">CC BY</a>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
     </ol>
-    </div>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-          <div style="background:url(/documents/img/yambase/homepage_carousel/ym.jpg) center center; background-size:cover;" class="slider-size">
-            <div class="carousel-sgn-caption">
-               <h3><a href="http://africayam.org/">AfricaYam Annual Meeting</a></h3>
-                <p><a href="http://africayam.org/">Cotonou, Benin Republic  March 14 - 18, 2016</a></p>
-              </a>
-            </div>
-            
-            <div class="carousel-sgn-links">
-              <ul>
-		<li><a href="http://book.bestwestern.com/bestwestern/BJ/Cotonou-hotels/BEST-WESTERN-PLUS-Nobila-Airport-Hotel/Hotel-Overview.do?propertyCode=75501">Venue Information</a></li>
-              <!--  <li><a href="/search/trials">Search Trials</a></li>
-		<li><a href="/search/stocks">Search Accessions and Plots</a></li>
-		<li><a href="/search/images">Search Images</a></li>		
-		<li><a href="/search/people">Search People</a></li>	-->	
-              </ul>
-            </div>
-          </div>
-        </a>
-      </div>
-      
       <div class="item">
-          <div style="background:url(/documents/img/yambase/homepage_carousel/7.jpg) center center; background-size:cover;" class="slider-size">
-            <div class="carousel-sgn-caption">
-               <h3><a href="/search"> Yam Search</a></h3>
-                <p>Find specific trials, traits, accessions and more</p>
-              </a>
-            </div>
-            
-            <div class="carousel-sgn-links">
-              <ul>
-		<li><a href="/breeders/search">Use the Search Wizard</a></li>
-                <li><a href="/search/trials">Search Trials</a></li>
-		<li><a href="/search/stocks">Search Accessions and Plots</a></li>
-		<li><a href="/search/images">Search Images</a></li>		
-		<li><a href="/search/people">Search People</a></li>		
-              </ul>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <div style="background:url(/documents/img/yambase/homepage_carousel/2.jpg) center center; background-size:cover;" class="slider-size">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/slides.jpeg) center center; background-size:cover;" class="slider-size">
           <div class="carousel-sgn-caption">
-            <h3><a href="breeders/home">Breeding Tools</a></h3>
-            <p><a target="_blank">Plan and create yam breeding trials.</a></p>
+            <h3><a href="http://www.slideshare.net/solgenomics">SGN Slideshare</a></h3>
+            <p><a href="http://www.slideshare.net/solgenomics" target="_blank">Slides from conferences and courses</a></p>
           </div>
-        
           <div class="carousel-sgn-links">
-            <ul>
-              <li><a href="/breeders/accessions">Upload Accessions</a></li>
-	      <li><a href="/breeders/crosses">Make a Cross</a></li>
-	      <li><a href="/breeders/trials">Create a Trial</a></li>
-	      <li><a href="/breeders/trials">Manage Trials</a></li>
+            <ul class="sgn_sm_list">
+              <a href="http://www.slideshare.net/solgenomics/introduction-to-yambase"><li>Intro: YamBase @ AfricaYam Meeting 2016</li></a>
+              <a href="http://www.slideshare.net/solgenomics/yambase-phenotyping-workflow-demo"><li>YamBase @ AfricaYam Meeting 2016</li></a>
+              <a href="http://www.slideshare.net/solgenomics/cassavabase-video-wizard-search-and-list-management-demo?related=1"target="_blank">Wizard search and list manager video demo</a>
+	     <a href="http://www.slideshare.net/solgenomics/sgn-introduction-to-unix-commandline-2015-part-1?related=1" target="_blank"><li>Introduction to UNIX Command-line</li></a>
             </ul>
           </div>
         </div>
       </div>
-
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/7.jpg) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+            <h3><a href="/search"> Yam Search</a></h3>
+            <p>Find specific trials, traits, accessions and more</p>
+        </div>
+        <div class="carousel-sgn-links">
+          <ul class="sgn_sm_list">
+            <li><a href="/breeders/search">Use the Search Wizard</a></li>
+                <li><a href="/search/trials">Search Trials</a></li>
+		<li><a href="/search/stocks">Search Accessions and Plots</a></li>
+		<li><a href="/search/images">Search Images</a></li>		
+		<li><a href="/search/people">Search People</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="item">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/grafting.jpeg) center center; background-size:cover;" class="slider-size">
+        <div class="carousel-sgn-caption">
+            <h3><a href="breeders/home">Breeding Tools</a></h3>
+            <p><a target="_blank">Plan and create yam breeding trials.</a></p>
+        </div>
+        <div class="carousel-sgn-links">
+          <ul class="sgn_sm_list">
+            <li><a href="/breeders/accessions">Upload Accessions</a></li>
+	      <li><a href="/breeders/crosses">Make a Cross</a></li>
+	      <li><a href="/breeders/trials">Create a Trial</a></li>
+	      <li><a href="/breeders/trials">Manage Trials</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
       <div class="item">
         <div style="background:url(/documents/img/yambase/homepage_carousel/3.jpg) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
@@ -205,7 +67,7 @@
             <p><a target="_blank">Upload and access yam breeding data</a></p>
         </div>
         <div class="carousel-sgn-links">
-          <ul>
+          <ul class="sgn_sm_list">
             <li><a href="/breeders/phenotyping">Upload Phenotypes</a></li>
 	    <li><a href="/fieldbook">Upload FieldBook file</a></li>
 	    <li><a href="/breeders/trials">Summary Statistics</a></li>
@@ -213,48 +75,354 @@
 	    <li><a href="/breeders/search">Download data with Wizard</a></li>
           </ul>
         </div>
-        
         </div>
       </div>
-
       <div class="item">
         <div style="background:url(/documents/img/yambase/homepage_carousel/4.jpg) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
-          <!--  <h3><a href="http://buell-lab.plantbiology.msu.edu/research.shtml">Genotypic Analysis (in progress)</a></h3> -->
-	    <h3><a target="_blank">Genotypic Analysis</a></h3>
+            <h3><a target="_blank">Genotypic Analysis</a></h3>
             <p><a target="_blank">Tools with the potential to accelerate breeding, and reveal the genetic basis of important traits.</a></p>
-        </div> 
-        
+        </div>
         <div class="carousel-sgn-links">
-          <ul>
+          <ul class="sgn_sm_list">
             <li><a>Browse the yam genome</a></li>
             <li><a>Find sequences by similarity</a></li>
             <li><a>Download annotations</a></li>
             <li><a>Download the genome sequence</a></li>
           </ul>
         </div>
-        
         </div>
       </div>
-
       <div class="item">
-        <div style="background:url(/documents/img/yambase/homepage_carousel/5.jpg) center center; background-size:cover;" class="slider-size">
+      <div style="background:url(/documents/img/yambase/homepage_carousel/yam_group.jpeg) center center; background-size:cover;" class="slider-size">
           <div class="carousel-sgn-caption">
               <h3><a>Yam Project News</a></h3>
-              <p><a href="http://africayam.org/">New project to boost yam production in West Africa</a></p>
+            <!--  <p><a href="http://dnaresearch.oxfordjournals.org/content/21/6/649" target="_blank">Draft Genome Sequence of Eggplant (<i>Solanum melongena L.</i>)</a></p>  -->
           </div>
-          
           <div class="carousel-sgn-links">
-            <ul>
-              <li><a href="http://www.iita.org/search/-/journal_content/56/25357/6468411#.Vqv3NULL_7A">IITA Announcement</a></li>
+            <ul class="sgn_sm_list">
+              <a href="http://africayam.org/">New project to boost yam production in West Africa</a>
+            <!--  <a href="ftp://ftp.solgenomics.net/genomes/Solanum_melongena/"><li>Download the annotations</li></a>
+              <a href="ftp://ftp.solgenomics.net/genomes/Solanum_melongena/"><li>Download the Genome Sequence</li></a> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="item">
+          <div style="background:url(/documents/img/homepage_carousel/carousel_slideshare.png) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption">
+              <h3><a>Yam Project News</a></h3>
+              <p><a href="http://africayam.org/">New project to boost yam production in West Africa</a></p>
+              </a>
+            </div>
+            <div class="carousel-sgn-links">
+              <ul class="sgn_sm_list">
+                
+                
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div> -->
+      <div class="item">
+          <div style="background:url(/documents/img/yambase/homepage_carousel/seed.jpeg) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption" style="opacity: 0.95; background-color: #efefef">
+              <h3><a>Yam Project News</a></h3>
+              <p><a href="http://africayam.org/">New project to boost yam production in West Africa</a></p>
+            </div>
+            <div class="carousel-sgn-links" style="background-color: #efefef">
+              <ul class="sgn_sm_list">
+                <li><a href="http://www.iita.org/search/-/journal_content/56/25357/6468411#.Vqv3NULL_7A">IITA Announcement</a></li>
               <li><a href="http://africayam.org/download/africa-yam-bulletin/">Africa Yam Project Bulletin</a></li>
               <li><a href="http://africayam.org/download/africa-yam-annual-report-2015/">Africa Yam Annual Report</a></li>
 	     <!-- <li><a href="http://www.cirad.fr/en">CIRAD</a></li> -->
               <li><a href="http://africayam.org/the-project-partners-will-work-towards-increasing-yam-productivity-another-post/">Project Partners</a></li>
-            </ul>
+              </ul>
+            </div>
           </div>
-          
-        </div>
+        </a>
       </div>
-    </div>
+      <!-- <div class="item">
+          <div style="background:url(/documents/img/homepage_carousel/tomato_diseases_2016.jpeg) center center; background-size:cover;" class="slider-size">
+            <div class="carousel-sgn-caption" style="opacity: 0.95">
+              <a href="http://www.tomatodiseases2016.es/web/" target="_blank">
+                <h3>5th International Symposium on Tomato Diseases</h3>
+                <p>Malaga, Spain June 13-16, 2016</p>
+              </a>
+            </div>
+            <div class="carousel-sgn-links">
+              <ul>
+                <li><a href="http://www.tomatodiseases2016.es/web/index.php/tentative-programme" target="_blank">Preliminary Program</a></li>
+                <li><a href="http://www.tomatodiseases2016.es/web/index.php/important-dates" target="_blank">Important Dates</a></li>
+                <li><a href="http://www.tomatodiseases2016.es/web/index.php/registration" target="_blank">Registration</a></li>
+                <li><a href="http://www.tomatodiseases2016.es/web/index.php/accommodation" target="_blank">Accomodation</a></li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div> -->
+    </div><!-- Wrapper for slides end-->
+  <div class="progress" style="height:5px">
+    <hr class="transition-timer-carousel-progress-bar" />
+  </div>
+  <!-- Left and right controls -->
+  <a id="prev_slide" class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="color:white;">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a  id="next_slide" class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="color:white;">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<ul id="btn_carousel_indicators" class="nav nav-pills nav-justified sgn_carousel_button_group">
+  <li class="active"><a data-target="#myCarousel" data-slide-to="0">SGN Slideshare</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="1">Yam</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="2">Grafting</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="3"><i>Seedlings</i></a></li>
+  <li><a data-target="#myCarousel" data-slide-to="4">Flowering</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="5">Group Photo</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="6">Seed Sowing</a></li>
+  <!-- <li><a data-target="#myCarousel" data-slide-to="6">5th ISTD</a></li> -->
+</ul>
+<style>
+	.sgn_carousel_button_group {
+		margin-left: 10px;
+		margin-top: 10px;
+		width:98% !important;
+	}
+	.slider-size {
+	  height: 400px; /* This is your slider height */
+	}
+	.carousel {
+	  max-width:98%;
+	  /*width:100%;*/
+	  margin:0 auto; /* center your carousel if other than 100% */
+	  margin-bottom:0px;
+	}
+	.carousel-sgn-caption { 
+	  position:relative;
+	  float: left;
+	  max-width:49%;
+	  min-width:35%;
+	  padding: 0px 10px 0px 10px;
+	  margin-top:20px;
+    color: #444;
+	  font-size: 16px;
+	  text-decoration: none;
+	  background-color: #fff;
+	  opacity: 0.80;
+	  filter: alpha(opacity=80); /* For IE8 and earlier */
+	  border-top-right-radius:12px;
+	  border-bottom-right-radius:12px;
+	}
+	.carousel-sgn-caption a { 
+    color: #444;
+	  text-decoration: none;
+	}
+	.carousel-sgn-caption a:hover { 
+	  color: #00426c;
+	  text-decoration: none;
+	}
+	.carousel-sgn-links {
+	  position:absolute;
+	  min-width:35%;
+	  max-width:49%;
+	  margin-top:20px;
+	  right:0px;
+	  color: #000;
+	  font-size: 16px;
+	  text-decoration: none;
+	  background-color: #fff;
+	  opacity: 0.85;
+	  filter: alpha(opacity=85); /* For IE8 and earlier */
+	  border-top-left-radius:12px;
+	  border-bottom-left-radius:12px;
+	}
+	.carousel-sgn-links ul { 
+	  padding: 10px 0px 0px 15px;
+	  list-style-type: none;
+	}
+	.carousel-sgn-links a { 
+	  color: #000;
+	  text-decoration: none;
+	}
+	.carousel-sgn-links a:hover { 
+	  color: #666;
+	  text-decoration: none;
+	}
+  .sgn_sm_list {
+    color: #444;
+    width: 100%;
+    padding: 0px;
+    padding-left: 5px;
+  }
+  .sgn_sm_list li {
+    color: #444;
+    width: 100%;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sgn_sm_list li:hover {
+    color: #00426c;
+  }
+  #btn_carousel_indicators {
+    cursor: pointer;
+  }
+	@media (min-width: 0px) and (max-width: 768px) {
+    .carousel-sgn-caption {
+      margin-top:0px;
+      width: 100%;
+      max-width: 100%;
+      border-radius:0px;
+      float: none;
+      margin-bottom:0px;
+      opacity: 0.90;
+    }
+    .carousel-sgn-links {
+      background-color: #efefef;
+      max-width: 100%;
+      width: 100%;
+      border-radius:0px;
+      bottom:0px;
+      opacity: 0.9;
+    }
+  	.carousel-sgn-links ul { 
+  	  padding: 0px;
+      margin-bottom: 0px;
+  	}
+    .sgn_sm_list li {
+      color: #00426c;
+      width: 100%;
+      position: relative;
+      display: block;
+      padding: 0px;
+      padding-left: 5px;
+      border: 1px solid #ddd;
+    }
+    .sgn_sm_list li:hover {
+      color: #444;
+  	  background-color: #fff;
+      opacity: 1;
+    }
+/*    .carousel-indicators {
+      bottom:0px;
+      margin-bottom: 0px;
+      width:100%;
+      left:auto;
+      margin-left:auto;
+    }
+*/    
+    .nav-pills>li>a {
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  	.sgn_carousel_button_group {
+      margin-left: 5px;
+  		margin-top: 5px;
+  		width:98% !important;
+  	}
+	}
+	.carousel-control {
+		height:100px;
+		margin-top:170px
+	}
+  .transition-timer-carousel-progress-bar {
+      height: 4px;
+      background-color: #337ab7;
+      width: 0;
+      margin: 0 0 0 0;
+      border: none;
+      z-index: 11;
+      position: relative;
+      border-radius: 0px;
+  }
+  .progress {
+    margin-top: 5px;
+    border-radius: 0px;
+  }
+</style>
+<!--
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+<script>
+  jQuery(document).ready(function() {
+    var $item = $('.carousel .item');
+    // var $wHeight = $(window).height();
+    var numberofSlides = $('.item').length;
+    var randomSlide = Math.floor((Math.random() * numberofSlides));
+    var currentSlide = randomSlide;
+    $('.carousel-indicators li').each(function(){
+      var $slideValue = $(this).attr('data-slide-to');
+      if (randomSlide == $slideValue) {
+        $(this).addClass('active');
+        $item.eq($slideValue).addClass('active');
+      } else {
+        $(this).removeClass('active');
+        $item.eq($slideValue).removeClass('active');
+      }
+    });
+    $('#btn_carousel_indicators a').each(function(){
+      var $slideValue = $(this).attr('data-slide-to');
+      // alert("currentSlide: "+$currentSlide+", slideValue: "+$slideValue)
+      if (randomSlide == $slideValue) {
+        $(this).parent().addClass('active');
+      } else {
+        $(this).parent().removeClass('active');
+      }
+    });
+    $('#myCarousel').bind('slid.bs.carousel', function (e) {
+      $('.carousel-indicators li').each(function(){
+        if ($(this).hasClass('active')) {
+          currentSlide = $(this).attr('data-slide-to');;
+        }
+      }); 
+      $('#btn_carousel_indicators li').removeClass('active');
+      $('#btn_carousel_indicators a').each(function(){
+        var $slideValue = $(this).attr('data-slide-to');
+        // alert("currentSlide: "+currentSlide+", slideValue: "+$slideValue)
+        if(currentSlide == $slideValue) {
+          $(this).parent().addClass('active');
+        }
+      });
+    });
+    // touch screen
+		//     $("#myCarousel").swiperight(function() {
+		//       $("#myCarousel").carousel('prev');
+		//     });
+		//
+		// $("#myCarousel").swipeleft(function() {
+		//       $("#myCarousel").carousel('next');
+		//     });
+  //progress bar
+  var percent = 0,
+  	interval = 50,//time showing each slide
+    $bar = $('.transition-timer-carousel-progress-bar'),
+  	$crsl = $('#myCarousel');
+    $crsl.carousel({//initialize
+      interval: false,
+      pause: true
+    }).on('slide.bs.carousel', function (){percent = 0;});//restart progress bar on new slide
+  	function progressBarCarousel() {
+      $bar.css({width:percent+'%'});
+  		percent = percent +0.5;
+  		if (percent>=100) {
+  			percent=0;
+  			$crsl.carousel('next');
+  		}
+  	}
+  	var barInterval = setInterval(progressBarCarousel, interval);//set interval to progressBarCarousel function
+    if (!(/Mobi/.test(navigator.userAgent))) {//tests if it isn't mobile, progress bar stop on mouse over slide
+      $crsl.hover(function(){
+            clearInterval(barInterval);
+          },
+          function(){
+            barInterval = setInterval(progressBarCarousel, interval);
+          }
+      );
+    }
+    $(".ui-loading").css("display","none");
+    $(".ui-loader").css("display","none");
+  });
+</script>
