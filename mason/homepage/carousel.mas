@@ -21,7 +21,7 @@
             <ul class="sgn_sm_list">
               <a href="http://www.slideshare.net/solgenomics/introduction-to-yambase"><li>Intro: YamBase @ AfricaYam Meeting 2016</li></a>
               <a href="http://www.slideshare.net/solgenomics/yambase-phenotyping-workflow-demo"><li>YamBase @ AfricaYam Meeting 2016</li></a>
-              <a href="http://www.slideshare.net/solgenomics/cassavabase-video-wizard-search-and-list-management-demo?related=1"target="_blank">Wizard search and list manager video demo</a>
+              <a href="http://www.slideshare.net/solgenomics/cassavabase-video-wizard-search-and-list-management-demo?related=1"target="_blank"><li>Wizard search and list manager video demo</li></a>
 	     <a href="http://www.slideshare.net/solgenomics/sgn-introduction-to-unix-commandline-2015-part-1?related=1" target="_blank"><li>Introduction to UNIX Command-line</li></a>
             </ul>
           </div>
@@ -176,10 +176,10 @@
   </a>
 </div>
 <ul id="btn_carousel_indicators" class="nav nav-pills nav-justified sgn_carousel_button_group">
-  <li class="active"><a data-target="#myCarousel" data-slide-to="0">SGN Slideshare</a></li>
+  <li class="active"><a data-target="#myCarousel" data-slide-to="0">Slideshare</a></li>
   <li><a data-target="#myCarousel" data-slide-to="1">Yam</a></li>
   <li><a data-target="#myCarousel" data-slide-to="2">Grafting</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="3"><i>Seedlings</i></a></li>
+  <li><a data-target="#myCarousel" data-slide-to="3">Seedlings</a></li>
   <li><a data-target="#myCarousel" data-slide-to="4">Flowering</a></li>
   <li><a data-target="#myCarousel" data-slide-to="5">Group Photo</a></li>
   <li><a data-target="#myCarousel" data-slide-to="6">Seed Sowing</a></li>
