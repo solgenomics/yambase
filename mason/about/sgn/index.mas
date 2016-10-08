@@ -1,13 +1,14 @@
 
 <& /page/page_title.mas, title => "About YamBase" &>
 
-<div>
+<p>
   YamBase is a database about breeding data for Yam (genus <i>Dioscorea</i>). Yam species that are being used for breeding include ,  <i>Dioscorea rotundata</i>, <i>Dioscorea cayenensis</i> (both are native to Africa and the major cultivated species), <i>Dioscorea aleata</i> (native to Southeast Asia), and <i>Dioscorea praehensilis</i>, as well as several other species. 
-</div>
+</p>
 
-<div>
+<p>
 YamBase contains phenotypic and genotypic data, as well as trial metadata from breeding programs in Africa, at IITA in Nigera, in Ghana, and in Benin. The world's biggest producer is Nigeria.
-</div>
+</p>
+
 
 
 
