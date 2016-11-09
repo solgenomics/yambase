@@ -2,6 +2,7 @@
 <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genomes<span class="caret"></span></a> -->
   <ul class="dropdown-menu">
     <!-- <li class="dropdown-header">Completed Genomes</li> -->
+    <li><a href="/breeders/manage_roles/">User Roles</a></li>
     <li><a href="/breeders/manage_programs">Breeding programs</a></li>
     <li><a href="/breeders/accessions">Accessions</a></li>
     <li><a href="/breeders/trials">Field Trials</a></li>
