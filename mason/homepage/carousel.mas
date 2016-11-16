@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="item">
-        <div style="background:url(/documents/img/yambase/homepage_carousel/grafting.jpeg) center center; background-size:cover;" class="slider-size">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/fmflower.jpg) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
             <h3><a href="breeders/home">Breeding Tools</a></h3>
             <p><a target="_blank">Plan and create yam breeding trials.</a></p>
@@ -78,7 +78,7 @@
         </div>
       </div>
       <div class="item">
-        <div style="background:url(/documents/img/yambase/homepage_carousel/4.jpg) center center; background-size:cover;" class="slider-size">
+        <div style="background:url(/documents/img/yambase/homepage_carousel/lab.JPG) center center; background-size:cover;" class="slider-size">
         <div class="carousel-sgn-caption">
             <h3><a target="_blank">Genotypic Analysis</a></h3>
             <p><a target="_blank">Tools with the potential to accelerate breeding, and reveal the genetic basis of important traits.</a></p>
@@ -125,7 +125,7 @@
         </a>
       </div> -->
       <div class="item">
-          <div style="background:url(/documents/img/yambase/homepage_carousel/seed.jpeg) center center; background-size:cover;" class="slider-size">
+          <div style="background:url(/documents/img/yambase/homepage_carousel/grafting.jpeg) center center; background-size:cover;" class="slider-size">
             <div class="carousel-sgn-caption" style="opacity: 0.95; background-color: #efefef">
               <h3><a>Yam Project News</a></h3>
               <p><a href="http://africayam.org/">New project to boost yam production in West Africa</a></p>
@@ -177,12 +177,12 @@
 </div>
 <ul id="btn_carousel_indicators" class="nav nav-pills nav-justified sgn_carousel_button_group">
   <li class="active"><a data-target="#myCarousel" data-slide-to="0">Slideshare</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="1">Yam</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="2">Grafting</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="3">Seedlings</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="4">Flowering</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="1">Search</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="2">Breeding Tool</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="3">Phenotypes</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="4">Genotypes</a></li>
   <li><a data-target="#myCarousel" data-slide-to="5">Group Photo</a></li>
-  <li><a data-target="#myCarousel" data-slide-to="6">Seed Sowing</a></li>
+  <li><a data-target="#myCarousel" data-slide-to="6">AfricaYam Project</a></li>
   <!-- <li><a data-target="#myCarousel" data-slide-to="6">5th ISTD</a></li> -->
 </ul>
 <style>
