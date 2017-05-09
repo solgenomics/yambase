@@ -10,6 +10,7 @@
     <li><a href="/breeders/locations">Locations</a></li>
     <li><a href="/breeders/crosses/">Crosses</a></li>
     <li><a href="/breeders/phenotyping">Phenotyping</a></li>
+    <!--<li><a href="/breeders/plot_phenotyping">Plot Phenotyping</a></li>-->
     <li><a href="/fieldbook">Field Book App</a></li>
     <li><a href="/barcode">Barcodes</a></li>
     <li><a href="/breeders/download">Download</a></li>
