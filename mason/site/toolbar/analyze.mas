@@ -5,6 +5,7 @@
     <li><a href="/breeders/home">Breeder Home</a></li>
     <li><a href="/selection/index">Selection Index</a></li>
     <li><a href="/solgs/search/">Genomic Selection</a></li>
+    <li><a href="/accession_usage">Accession Usage</a></li>
     <li role="separator" class="divider"></li>
 
     <li class="dropdown-header">Sequence Analysis</li>
@@ -14,5 +15,6 @@
     <li class="dropdown-header">Other</li>
     <li><a href="/tools/onto/">Ontology Browser</a></li>
     <li><a href="/tools/compose/">Compose a New Trait</a></li>
+
   </ul>
 </li>
