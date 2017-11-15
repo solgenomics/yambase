@@ -15,7 +15,7 @@
     <li><a href="/fieldbook">Field Book App</a></li>
     <li><a href="/barcode">Barcodes</a></li>
     <li><a href="/breeders/download">Download</a></li>
-
+    <li><a href="/breeders/upload">Upload</a></li>
 
   </ul>
 </li>
