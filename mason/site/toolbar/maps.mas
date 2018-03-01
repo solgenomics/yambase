@@ -3,5 +3,6 @@
   <ul class="dropdown-menu">
     
     <li><a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_002240015.2">Yam Genome at Genbank</a></li>
+    <li><a href="/jbrowse"><i>Dioscorea rotundata</i> genome browser</li>
   </ul>
 </li>
