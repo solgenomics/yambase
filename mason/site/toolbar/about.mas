@@ -8,6 +8,10 @@
     <li role="separator" class="divider"></li>
 
     <li><a href="http://solgenomics.github.io/sgn" class="footer">Manual</a></li>
+    <li><a href="https://www.youtube.com/channel/UC3jrvvzGKKEHzOriDBgnj0A" target="_blank">Video tutorials</a></li>
+
+    <li role="separator" class="divider"></li>	
+
     <li><a href="/help/faq.pl">FAQ</a></li>
     <li><a href="/forum/topics.pl">Forum</a></li>
     <li><a href="ftp://ftp.yambase.org/">FTP site</a></li>
