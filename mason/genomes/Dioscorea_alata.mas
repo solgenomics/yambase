@@ -5,7 +5,7 @@ A new version of the <i>Dioscorea alata</i> genomes has been released.<br />
 <br />
 The reference genome is from accession <a href="/stock/39729/view">TDa9500328</a>.<br />
 <br />
-<div class="boxbgcolor5">
+<div class="boxbgcolor1">
   <h3>Data Usage Policy: <i>Dioscorea alata</i> v2.1</h3>
     <h4>Restrictions on dataset usage</h4>
     <p>
@@ -50,5 +50,7 @@ The reference genome is from accession <a href="/stock/39729/view">TDa9500328</a
 <a href="ftp://ftp.yambase.org">ftp://ftp.yambase.org</a>
 
 <h4>Genome browser</h4>
+<a href="https://phytozome-next.jgi.doe.gov/jbrowse/index.html?data=genomes/Dalata_v2_1">Dioscorea alata Genome Browser at JGI</a>
 
-[Not yet]
+<h4>Publication</h4>
+Chromosome evolution and the genetic basis of agronomically important traits in greater yam (2021). Jessen V. Bredeson, Jessica B. Lyons, Ibukun O. Oniyinde, Nneka R. Okereke, Olufisayo Kolade, Ikenna Nnabue, Christian O. Nwadili, Eva Hribova, Matthew Parker, Jeremiah Nwogha, Shengqiang Shu, Joseph Carlson, Robert Kariba, Samuel Muthemba, Katarzyna Knop, Geoffrey J. Barton, Anna V. Sherwood, Antonio Lopez-Montes, Robert Asiedu, Ramni Jamnadass, Alice Muchugi, David Goodstein, Chiedozie N. Egesi, Jonathan Featherston, Asrat Asfaw, Gordon G. Simpson, Jaroslav Dole. <a href="https://doi.org/10.1101/2021.04.14.439117">https://doi.org/10.1101/2021.04.14.439117</a>

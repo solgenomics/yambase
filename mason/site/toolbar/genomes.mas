@@ -2,6 +2,7 @@
   <ul class="dropdown-menu">
     <li><a href="/organism/Dioscorea_alata/genome">Dioscorea alata Genome Version 2.1</a></li>
     <li><a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_002240015.2">Yam Genome at Genbank</a></li>
-    <li><a href="/jbrowse"><i>Yam Genome</i> Jbrowse</a></li>
+    <li><a href="/jbrowse"><i>Yam Genome</i> Jbrowse (@Yambase)</li>
+    <li><a href="https://phytozome-next.jgi.doe.gov/jbrowse/index.html?data=genomes/Dalata_v2_1">Dioscorea alata Genome Browser at JGI</a></li>
   </ul>
 </li>
