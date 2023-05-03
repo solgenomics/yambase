@@ -3,20 +3,53 @@
 
 </%args>
 
+
+
+
 <& /page/page_title.mas, title => "Markers" &>
 
-<table id="marker_table" class="display">
+
+<div id="marker_tabs">
+     <ul>
+     	<li><a href="#qc_marker_tab">QC Markers</a></li>
+ 	<li><a href="#trait_marker_tab">Trait Markers</a></li>
+
+ </ul>
+
+
+
+<div id="qc_marker_tab">
+
+<table id="qc_marker_table" class="display">
 </table>
+
+</div>
+
+<div id="trait_marker_tab">
+
+<table id="trait_marker_table" class="display">
+</table>
+
+</div>
+</div>
 
 <script>
 
+jQuery('#marker_tabs').tabs();
+
 jQuery(document).ready( function() {
    var header = get_header();
-   var data = get_data();
+   var qc_data = get_qc_data();
+   var trait_data = get_trait_data();
 
-jQuery('#marker_table').DataTable( {
+jQuery('#qc_marker_table').DataTable( {
    'columns': header,
-   'data': data,
+   'data': qc_data,
+});
+
+jQuery('#trait_marker_table').DataTable( {
+   'columns': header,
+   'data': trait_data,
 
 });
 
@@ -45,7 +78,7 @@ function get_header() {
   return header;
 }
 
-function get_data() {
+function get_qc_data() {
 
 var data = 
 [
@@ -2093,5 +2126,324 @@ var data =
   return data;
   }
 });
+
+
+
+function get_trait_data () {
+
+	 var data = [
+ [
+  1,
+  "snpDR00151",
+  "chrom_03_880906",
+  "Plant Vigor",
+  "Plant vigour",
+  "Diascorea sp.",
+  "D. rotundata",
+  3,
+  880906,
+  "A",
+  "G (GA\/high plant vigor)",
+  "G",
+  "A (associated with weak plant vigor",
+  "A\/G",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "GCGCTGTTCTGCAAGAACCTCTCAGCGCACCGTTGCTCMACCTTCTCAGC[R]ATAGACGCCAAGGCCGACAAGGGCTTGCATCGGATCCTCGTCTCTTGCCG"
+ ],
+ [
+  2,
+  "snpDR00152",
+  "chrom_11_1819621",
+  "Plant sex",
+  "Plant sex",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  1819621,
+  "C",
+  "CT\/Female",
+  "T",
+  "CC \/ TT Male",
+  "C\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "ATCAACGCATATGCCTTTTGATCCTTTTTCAATTTTTTGAAAAATTATTT[Y]TTTCTCTGTTTTTCTCTTTTGATGTTTAATGCTTTATACTATGGTGTATT"
+ ],
+ [
+   3,
+  "snpDR00153",
+  "chrom_11_1892426",
+  "Plant sex",
+  "Plant sex",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  1819621,
+  "C",
+  "CT\/Female",
+  "T",
+  "CC \/ TT Male",
+  "C\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "GAAACCCCAACAAGTCAAAARAAAAAAAACGCCAAATTAGACTTCCACCA[Y]ATATGAAAACAGAAAATCAGCAAATAAAACAAAATCACCAGCGCCTTGCT"
+ ],
+ [
+  4,
+  "snpDR00154",
+  "chrom_11_203612",
+  "Flowering Intesity",
+  "Flowering intensity",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  260263,
+  "A",
+  "A (associated with high flowerinng intensity)",
+  "G",
+  "G (associated with low flowering intensity)",
+  "A\/G",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "AGAAGCATGTAGCTTGCTGAAGGCTATTAATTTGTCAGTTATCCTCTGTC[R]CCAGTTTCCATGGTCTCCTATTATTTTTGTTTACTACGATTACAACTTAT"
+ ],
+ [
+  6,
+  "snpDR00156",
+  "chrom_11_508869",
+  "Flowering Intesity",
+  "Flowering intensity",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  553347,
+  "C",
+  "C (associated with high. Flowerig intensity)",
+  "G",
+  "T (associated with low flowering intensity)",
+  "C\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "CACGTGCYCTCTTTAATGACGTGTCATATCTGTGTATGCAAATGGAGGGG[Y]GAGCTGGTGTTAACGTGGCAACTATGGYATCAAATTCTCTCCAGGATCCT"
+ ],
+ [
+  9,
+  "snpDR00159",
+  "chrom_11_1758116",
+  "Flowering Intesity",
+  "Flowering intensity",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  1758119,
+  "A",
+  "A (associated with high. Flowerig intensity)",
+  "G",
+  "G (associated with low flowering intensity)",
+  "A\/G",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "AGATGACTATCATCCAAGCATTGAAACGGTYGACCATCKTTYCCTTAACT[R]TTMTTTCACTAGGCGGATCTGGGATTACTTTATTCATCTGTTTCCGCTTC"
+ ],
+ [
+  10,
+  "snpDR00160",
+  "chrom_07_10278867",
+  "Yam mosaic virus",
+  "Yam mosaic virus",
+  "Diascorea sp.",
+  "D. rotundata",
+  7,
+  10278867,
+  "G",
+  "G( associated with the resistance)",
+  "T",
+  "T (associated with the sucesptibility)",
+  "G\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "TATTATACCCTTGGAAATAACCAATATTTRGGAGAGCAAAGTGATAGATT[K]ATATTTTGCATKTATATCATTCTTTCMATTTTCTTGCTTGTGCTAAATAG"
+ ],
+ [
+  12,
+  "snpDR00162",
+  "chrom_07_10293618",
+  "Yam mosaic virus",
+  "Yam mosaic virus",
+  "Diascorea sp.",
+  "D. rotundata",
+  7,
+  10278867,
+  "A",
+  "A( associated with the resistance)",
+  "T",
+  "T (associated with the sucesptibility)",
+  "A\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "GCCATCAGTRATATTTTGAATTTTAAAATTAGCAGCCTCCCGTTTGCCTA[W]WAAGAGGTTCTCATTGCTCCCAAGAGGATTCCAGTAAGCCACTTTAAGCA"
+ ],
+ [
+  13,
+  "snpDR00163",
+  "chrom_07_24207228",
+  "Tuber yield per plant",
+  "Yield per plant",
+  "Diascorea sp.",
+  "D. rotundata",
+  7,
+  24207228,
+  "G",
+  "G (associated with high yield per plant)",
+  "T",
+  "T (low yield per plant)",
+  "G\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "TTKATTGTTTCTCTTTTGTTTRATTKCAGTGTATGCCMCCGAAGGGTAAA[K]CACCAAGATTGGTAGAAGATGAGAATWGTGCAGAAAGAGTRATTAGAACC"
+ ],
+ [
+  14,
+  "snpDR00164",
+  "chrom_07_24200191",
+  "Tuber yield per plant",
+  "Yield per plant",
+  "Diascorea sp.",
+  "D. rotundata",
+  7,
+  24207228,
+  "G",
+  "G (associated with high yield per plant)",
+  "T",
+  "T (low yield per plant)",
+  "G\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "TTGGTGGAAAAGCGGGTGGGAAGGTGGAGGCATGGTGAAAGAAAGAACAA[K]CTTATTATTTTGTAAGACGYTTTGACTWGGTGAAACGTTGAAGTATCCTC"
+ ],
+ [
+  15,
+  "snpDR00165",
+  "chrom_04_2381068",
+  "Spines on tuber surface",
+  "Spines on tuber surface",
+  "Diascorea sp.",
+  "D. rotundata",
+  4,
+  2412239,
+  "C",
+  "C (Absence of spines on the tubers) C favorable allele",
+  "T",
+  "T (presence of spine on the tuber) T unfavorable allele",
+  "C\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "GGAAATTCTTGACTCCAGAAATCCCTGATGATGAGATATATTAGCTAGTG[Y]TGCTTTGTTTTTGTAATACYATGGACATATGCTGCTTGTTTTTTTTCTTT"
+ ],
+ [
+  16,
+  "snpDR00166",
+  "chrom_17_5305858",
+  "Spines on tuber surface",
+  "Spines on tuber surface",
+  "Diascorea sp.",
+  "D. rotundata",
+  17,
+  5375792,
+  "C",
+  "C (Absence of spines on the tubers) C favorable allele",
+  "T",
+  "T (presence of spine on the tuber) T unfavorable allele",
+  "C\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "TTAACCTTGAGTGACCCCACTGCTAGGTCACCTCAACGGGCACACCAGAC[Y]GGTTTCATGCATCAATGGACTTTTAAATTTGAACCAGGGAAGTACTCATT"
+ ],
+ [
+  17,
+  "snpDR00167",
+  "chrom_02_23410203",
+  "Tuber appearance",
+  "Tuber appearance",
+  "Diascorea sp.",
+  "D. rotundata",
+  2,
+  23410203,
+  "A",
+  "G  (associated with smooth tuber)",
+  "G",
+  "A (associated with hairy\/Rought)",
+  "A\/G",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "AACACAGCTCCCCAGCTGCATGGGAGTTGGTGYAGGTATGGTGTGTTTGG[R]TGTATTCTTTTAAAGAAKTCAGTTGCATTCCATTTAGGCCTCTCTTTCAC"
+ ],
+ [
+  18,
+  "snpDR00168",
+  "chrom_11_2022871",
+  "Tuber appearance",
+  "Tuber appearance",
+  "Diascorea sp.",
+  "D. rotundata",
+  11,
+  2050940,
+  "A",
+  "T associated with smooth tuber ",
+  "T",
+  "A associated with hairy",
+  "A\/T",
+  "ITTA",
+  "unpublished",
+  "Agre Paterne: p.agre@cgiar.org \/ Asrat Amele:  a.amele@cgiar.org",
+  "West Africa",
+  "in use",
+  "GCCTCTTGCTTTTGCCTTCATTGTATGGTATTCTTGTATTTACTTTTCTA[W]TACTAGTTAAGTAGAAAACTTCTATTTAAGAGTTAGGTTAGAAAGTAGGC"
+ ]
+  ];
+
+return data;
+}
+
 
 </script>
