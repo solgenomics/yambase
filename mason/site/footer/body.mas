@@ -26,8 +26,9 @@
                 	<a href="http://bti.cornell.edu/" class="footer"><img width="100" alt="Boyce Thompson Institute" src="/documents/img/bti_logo2.gif" title="Boyce Thompson Institute" border="0" style="padding-bottom:2px"/></a>
               	      </td>
               	      <td>
-                       <a href="https://www.positivessl.com" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans.png" alt="SSL Certificate" title="SSL Certificate" border="0" /></a>
-      <div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://www.positivessl.com" style="color:#86BEE0; text-decoration: none;">SSL Certificate</a></div></td>
+		      <br />  
+                       <a href="https://brapi.org/" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="/documents/img/brapi-logo.svg" alt="brapi.org" title="BrAPI" border="0" width="80" /></a>
+      <div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://brapi.org/" style="color:#86BEE0; text-decoration: none;">brapi.org</a></div></td>
               	      <td>
                 	<a href="http://www.gmod.org/" class="footer"><img width="100" alt="Powered by GMOD" src="/documents/img/powered_by_gmod_150x71.png" title="Powered by GMOD" border="0" style="padding-top:15px"/></a>
               	      </td>
