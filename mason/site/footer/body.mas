@@ -10,11 +10,11 @@
     <div class="row">
       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
       </div>
-      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
         <div class="container-fluid">
     	  <div class="row">
 
-      	    <div class="col-sm-9 col-md-9 col-lg-9">
+      	    <div class="col-sm-11 col-md-11 col-lg-11">
 
 	      <div class="panel panel-success">
 	        <div class="panel-heading"></div>
@@ -23,84 +23,40 @@
 	    	  <tbody>
             	    <tr>
               	      <td>
-                	<a href="http://btiscience.org/" class="footer"><img width="100" alt="Boyce Thompson Institute" src="/documents/img/bti_logo_2024.png" title="Boyce Thompson Institute" border="0" style="padding-bottom:2px"/></a>
-              	      </td>
-              	      <td>
-		      <br />  
-                       <a href="https://brapi.org/" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="/documents/img/brapi-logo.svg" alt="brapi.org" title="BrAPI" border="0" width="80" /></a>
-      <div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://brapi.org/" style="color:#86BEE0; text-decoration: none;">brapi.org</a></div></td>
-              	      <td>
-                	<a href="http://www.gmod.org/" class="footer"><img width="100" alt="Powered by GMOD" src="/documents/img/powered_by_gmod_150x71.png" title="Powered by GMOD" border="0" style="padding-top:15px"/></a>
-              	      </td>
-              	      <td>
-                	<!-- a href="http://www.gatesfoundation.org/" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/gate.png" title="Gate Foundation" border="0" style="padding-top:15px"/></a -->
-<!-- Note: Do NOT use the BMGF logo, as it requires special permission (LM) -->
+                	<a href="http://btiscience.org/" target="_new" class="footer"><img width="140" alt="Boyce Thompson Institute" src="/documents/img/bti_logo_2024.png" title="Boyce Thompson Institute" border="0" style="padding-bottom:2px"/></a>
               	      </td>
 		      <td>
-                	<a href="http://www.iita.org/yam" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
+			<a href="https://breedbase.org/" class="footer" target="_new" ><img width="160" src="/documents/img/Breedbase_HighRes.png" /></a>
+		      </td>
+		      <td>
+			<br />
+			
+			<a href="https://brapi.org/" target="_new" style="font-family: arial; font-size: 10px; color: #212121; text-decoration: none;"><img src="/documents/img/brapi-logo.svg" alt="brapi.org" title="BrAPI" border="0" width="80" /></a>
+			<div style="font-family: arial;font-weight:bold;font-size:15px;color:#86BEE0;"><a href="https://brapi.org/" style="color:#86BEE0; text-decoration: none;">brapi.org</a></div></td>
+		      <td>
+                	<a href="http://www.iita.org/yam" target="_new" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
               	      </td>
             	    </tr>
 	    	  </tbody>
-          	</table>
-
-	        <ul class="visible-xs-block list-inline center nav-justified">
-            	  <li>
-              	  <a href="http://bti.cornell.edu/" class="footer"><img width="100" alt="Boyce Thompson Institute" src="/documents/img/bti_logo2.gif" title="Boyce Thompson Institute" border="0" style="padding-top:5px"/></a>
-            	  </li>
-            	  <li>
-              	  <a href="http://www.nsf.gov/" class="footer"><img width="77" alt="National Science Foundation" src="/documents/img/nsf_logo2.png" title="National Science Foundation" border="0" style="padding-top:5px"/></a>
-            	  </li>
-            	  <li>
-              	  <a href="http://www.gmod.org/" class="footer"><img width="100" alt="Powered by GMOD" src="/documents/img/powered_by_gmod_150x71.png" title="Powered by GMOD" border="0" style="padding-top:15px"/></a>
-            	  </li>
-            	  <li>
-              	  <a href="http://www.nifa.usda.gov/" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/usda_logo2.png" title="USDA NIFA" border="0" style="padding-top:12px"/></a>
-            	  </li>
-
-                  <li> 
-		  <a <iframe width="50" height="20" src="https://www.youtube.com/embed/WJxV_A6KpLM?feature=oembed" frameborder="0" allowfullscreen></iframe></a>
-                  </li>
-
-          	</ul>
-
+          	  </table>
+		  
+	          <ul class="visible-xs-block list-inline center nav-justified">
+            	    <li>
+              	      <a href="https://btiscience.org/" class="footer" target="_new" ><img width="100" alt="Boyce Thompson Institute" src="/documents/img/bti_logo_2024.png" title="Boyce Thompson Institute" border="0" style="padding-top:5px"/></a>
+            	    </li>
+		    <li>
+		      <a href="https://breedbase.org/" class="footer" target="_new" ><img width="160" src="/documents/img/Breedbase_HighRes.png" /></a>
+		    </li>
+		    <li>
+		      <a href="https://brapi.org/" class="footer" target="_new" > <img width="120" src="/documents/img/brapi_logo.png" /></a>
+		    </li>
+		  </ul>
 	      </div>
-
-	      <div class="well well-sm" style="margin-top:-3px">
-	        <!-- <small>Yambase is supported by <a class="footer" href="http://www.gatesfoundation.org/"> Gate Foundation </a>, and hosted at <a class="footer" href="http://bti.cornell.edu">BTI.</a> -->
-     		<small>Yambase is hosted at <a class="footer" href="http://bti.cornell.edu">BTI.</a>
-                <br />
-    		</small>
-              </div>
-	    </div>
-
-	    <div class="col-sm-3 col-md-3 col-lg-3" >
-	      <div class="panel panel-info">
-		<table class="table table-hover">
-		  <tbody>
-		    <tr>
-		      <td><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about/index.pl">About</a></td>
-		    <tr>
-		    <tr>
-		      <td><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact/form/">Contact Us</a></td>
-		    <tr>
-		    <tr>
-		      <td><span class="glyphicon glyphicon-blackboard"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/help/index.pl">Help</a></td>
-		    <tr>
-		    <tr>
-		      <td><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/help/faq.pl">FAQ</a></td>
-		    <tr>
-		    <tr>
-		      <td><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/forum/topics.pl">Forum</a></td>
-		    <tr>
-		  </tbody>
-		</table>
-	      </div>
-	    </div>
-
+	    </div>	    
 	  </div>
 	</div>
       </div>
-
+      
       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
       </div>
     </div>
