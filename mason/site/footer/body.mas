@@ -48,8 +48,11 @@
 		      <a href="https://breedbase.org/" class="footer" target="_new" ><img width="160" src="/documents/img/Breedbase_HighRes.png" /></a>
 		    </li>
 		    <li>
-		      <a href="https://brapi.org/" class="footer" target="_new" > <img width="120" src="/documents/img/brapi_logo.png" /></a>
+		      <a href="https://brapi.org/" class="footer" target="_new" > <img width="120" src="/documents/img/brapi-logo.svg" /></a>
 		    </li>
+		    <li>
+		                      	<a href="http://www.iita.org/yam" target="_new" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
+		      </li>
 		  </ul>
 	      </div>
 	    </div>	    
