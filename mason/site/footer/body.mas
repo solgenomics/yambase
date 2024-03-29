@@ -26,7 +26,7 @@
                 	<a href="http://btiscience.org/" target="_new" class="footer"><img width="140" alt="Boyce Thompson Institute" src="/documents/img/bti_logo_2024.png" title="Boyce Thompson Institute" border="0" style="padding-bottom:2px"/></a>
               	      </td>
 		      <td>
-			<a href="https://breedbase.org/" class="footer" target="_new" ><img width="160" src="/documents/img/Breedbase_HighRes.png" /></a>
+			<a href="https://breedbase.org/" class="footer" target="_new" ><img width="160" src="/documents/img/Breedbase_HighRes.png" style="margin-left:-50px" /></a>
 		      </td>
 		      <td>
 			<br />
@@ -36,6 +36,9 @@
 		      <td>
                 	<a href="http://www.iita.org/yam" target="_new" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
               	      </td>
+		      <td>
+		      <a href="https://rtbbreeding.org" target="_new" class="footer"><img width="100" src="/documents/img/2024-RTB-Breeding-logo.png" title="CGIAR RTB Breeding" border="0" style="padding-top:10px" /></a>
+		    </td>
             	    </tr>
 	    	  </tbody>
           	  </table>
@@ -51,8 +54,11 @@
 		      <a href="https://brapi.org/" class="footer" target="_new" > <img width="120" src="/documents/img/brapi-logo.svg" /></a>
 		    </li>
 		    <li>
-		                      	<a href="http://www.iita.org/yam" target="_new" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
-		      </li>
+		      <a href="http://www.iita.org/yam" target="_new" class="footer"><img width="80" alt="USDA NIFA" src="/documents/img/IITA.png" title="IITA" border="0" style="padding-top:15px"/></a>
+		    </li>
+		    <li>
+		      <a href="https://rtbbreeding.org" target="_new" class="footer"><img width="100" src="/documents/img/2024-RTB-Breeding-logo.png" title="CGIAR RTB Breeding" border="0" style="padding-top:10px" /></a>
+		    </li>
 		  </ul>
 	      </div>
 	    </div>	    
