@@ -1,27 +1,33 @@
 ###version: "3.7"
 services:
   breedbase:
-    image: breedbase/breedbase:v0.79
+    image: breedbase/breedbase:latest
     restart: always
 
     deploy:
       resources:
         reservations:
-          memory: 12G
+          memory: 50G
         limits:
-          memory: 12G
+          memory: 50G
         
-    container_name: yambase-test
+    container_name: breedbase_web_yambase
     ports:
-      - 8090:8080
+      - 8937:8080
     volumes:
        - type: bind
-         source: /home/production/yambase-test/sgn_local.conf
+         source: /home/production/yambase/sgn_local.conf
          target: /home/production/cxgn/sgn/sgn_local.conf
+#       - type: bind
+ #        source: /home/production/yambase
+ #        target: /home/production/cxgn/yambase
        - type: bind
-         source: /home/production/yambase-test
-         target: /home/production/cxgn/yambase
-       - type: bind
-         source: /export/prod/public_yambase_test
+         source: /export/prod/public_yambase
          target: /home/production/volume
+       - type: bind
+         source: bash_history
+         target: /home/production/.bash_history
+#       - type: bind
+#         source: /home/production/sgn_for_yambase
+#         target: /home/production/cxgn/sgn
 
